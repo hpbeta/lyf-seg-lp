@@ -2,8 +2,10 @@ import { ArrowRight } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center bg-gray-100">
-      {/* Background image with overlay */}
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center bg-gray-100"
+    >
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
         <img
@@ -41,8 +43,6 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-
-      {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce">
         <div className="w-8 h-12 rounded-full border-2 border-white flex items-center justify-center">
           <div className="w-1 h-3 bg-white rounded-full animate-pulse"></div>

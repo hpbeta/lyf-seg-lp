@@ -19,7 +19,6 @@ export function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Enviar o formulário para o Formspree
     const response = await fetch("https://formspree.io/f/xanoaenj", {
       method: "POST",
       headers: {
@@ -40,7 +39,9 @@ export function Contact() {
     <section id="contact" className="px-4">
       <div className="flex flex-col items-center justify-center mt-10 gap-8">
         <div className="flex flex-col items-center text-center">
-          <h1 className="font-bold text-gray-700 text-3xl mb-5">Entre em Contato</h1>
+          <h1 className="font-bold text-gray-700 text-3xl mb-5">
+            Entre em Contato
+          </h1>
           <p className="max-w-xl text-xl text-gray-700">
             Estamos prontos para ajudar a sua empresa a criar um ambiente de
             trabalho mais seguro e produtivo.
@@ -48,7 +49,6 @@ export function Contact() {
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 w-full max-w-7xl">
-          {/* Formulário */}
           <div className="shadow-2xl w-full lg:w-1/2 p-4">
             <form onSubmit={handleSubmit} className="flex flex-col p-4 sm:p-10">
               <label className="mb-1">Nome:</label>
@@ -92,11 +92,11 @@ export function Contact() {
               </button>
             </form>
           </div>
-
-          {/* Informações de contato */}
           <div className="bg-green-700 p-6 sm:p-8 rounded-lg shadow-md text-white w-full lg:w-1/2 flex flex-col justify-between">
             <div>
-              <h3 className="text-2xl font-bold mb-6">Informações de Contato</h3>
+              <h3 className="text-2xl font-bold mb-6">
+                Informações de Contato
+              </h3>
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
