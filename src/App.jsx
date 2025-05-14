@@ -4,6 +4,7 @@ import { Footer } from "./pages/footer";
 import { Header } from "./pages/header";
 import { HeroSection } from "./pages/hero";
 import { Services } from "./pages/servicing";
+import { WhatsAppButton } from "./pages/wppButton";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <BenefitsSection />
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </>
   );
 }
