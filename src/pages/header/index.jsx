@@ -31,13 +31,13 @@ export function Header() {
 
           <nav className="hidden md:flex space-x-8">
             <a
-              href="#about"
+              href="#hero"
               className=" hover:text-green-600 font-medium transition-colors"
             >
               Sobre Nós
             </a>
             <a
-              href="#services"
+              href="#servicing"
               className=" hover:text-green-600 font-medium transition-colors"
             >
               Serviços
