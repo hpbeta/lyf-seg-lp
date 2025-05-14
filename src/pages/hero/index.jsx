@@ -1,14 +1,14 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight } from "lucide-react";
 
-export function HeroSection () {
+export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center bg-gray-100">
+    <section id="hero" className="relative min-h-screen flex items-center bg-gray-100">
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
-        <img 
-          src="https://images.pexels.com/photos/8961345/pexels-photo-8961345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-          alt="Imagem de background" 
+        <img
+          src="https://images.pexels.com/photos/8961345/pexels-photo-8961345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Imagem de background"
           className="w-full h-full object-cover"
         />
       </div>
@@ -19,18 +19,21 @@ export function HeroSection () {
             Sua empresa segura, seus colaboradores protegidos.
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8">
-            Soluções completas em segurança do trabalho para proteger o que mais importa: as pessoas.
+            Soluções completas em segurança do trabalho para proteger o que mais
+            importa: as pessoas.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a 
-              href="#contact" 
+            <a
+              href="https://wa.me/5511987346937"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-green-600 hover:bg-green-700 text-white font-medium px-8 py-3 rounded-md transition-all duration-300 flex items-center justify-center gap-2 text-lg"
             >
               Fale com um especialista
               <ArrowRight size={20} />
             </a>
-            <a 
-              href="#services" 
+            <a
+              href="#servicing"
               className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white font-medium px-8 py-3 rounded-md transition-all duration-300 flex items-center justify-center text-lg border border-white/30"
             >
               Nossos serviços
@@ -47,4 +50,4 @@ export function HeroSection () {
       </div>
     </section>
   );
-};
+}

@@ -13,54 +13,23 @@ export function  Footer ()  {
             <p className="text-gray-400 mb-6">
               Soluções completas em segurança do trabalho para proteger o que mais importa: as pessoas.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Linkedin size={20} />
-              </a>
-              <a href="mailto:contato@lyfseg.com.br" className="text-gray-400 hover:text-white transition-colors">
-                <Mail size={20} />
-              </a>
-            </div>
+         
           </div>
           
           <div>
             <h3 className="font-bold text-xl mb-6">Links Rápidos</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#about" className="text-gray-400 hover:text-white transition-colors">Sobre Nós</a>
+                <a href="#hero" className="text-gray-400 hover:text-white transition-colors">Sobre Nós</a>
               </li>
               <li>
-                <a href="#services" className="text-gray-400 hover:text-white transition-colors">Serviços</a>
+                <a href="#servicing" className="text-gray-400 hover:text-white transition-colors">Serviços</a>
               </li>
               <li>
                 <a href="#benefits" className="text-gray-400 hover:text-white transition-colors">Benefícios</a>
               </li>
               <li>
                 <a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contato</a>
-              </li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="font-bold text-xl mb-6">Normas Regulamentadoras</h3>
-            <ul className="space-y-3">
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">NR-01 - Disposições Gerais</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">NR-06 - Equipamentos de Proteção Individual</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">NR-10 - Segurança em Instalações Elétricas</a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">NR-35 - Trabalho em Altura</a>
               </li>
             </ul>
           </div>

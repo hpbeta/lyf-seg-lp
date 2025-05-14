@@ -49,7 +49,9 @@ export function Header() {
               Benefícios
             </a>
             <a
-              href="#contact"
+              href="https://wa.me/5511987346937"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-green-600  px-4 py-2 rounded-md hover:bg-green-700 transition-colors"
             >
               Contato
